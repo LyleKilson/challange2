@@ -11,7 +11,7 @@
   }
 
   body {
-    background-color: var(--secondary-color);
+    background-color: transparent;
     font-family: OCR A Std, 'Courier New', Courier, monospace;
   }
 
@@ -21,13 +21,15 @@
     position: sticky;
     flex-wrap: wrap;
     align-items: center;
-    margin: 10px;
+    z-index: 9999;
   }
 
   header img{
     width: 100px;
     height: 65px;
     padding: 10px 15px;
+    margin-top: 15px;
+    opacity: .85;
   }
 
   header img:hover{
@@ -38,37 +40,49 @@
   header nav ul {
     font-size: 1.90vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
     align-items: center;
-    padding: 0 40px;
   }
 
   header nav ul li a {
-    padding: 10px 15px;
+    padding: 5px 8px;
     text-decoration: none;
     color: var(--tertiary-color);
   }
 
   header nav ul li a:hover {
     background: var(--primary-color);
-    color: var(--tertiary-color););
+    color: var(--secondary-color););
     border-radius: 15px
   }
 /* HEADER / NAV STYLES END */
+
+/* JUMBOTRON STARTS */
   .jumbotron {
-    background: url(../images/P&K.JPG) no-repeat center fixed;
+    background-image: url(../images/P&K.JPG);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     background-size: cover;
-    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: var(--secondary-color);
+    font-size: 40px;
     opacity: .70;
     border-radius: 15px;
     margin: 10px;
   }
 
-  .jumbotron div {
-    padding: 200px;
+  .jumbotron h1{
+    padding: 250px;
     font-weight: bolder;
-    font-size: 65px;
+    font-size: 40px;
     text-align: center;
-    color: var(--secondary-color);
+  }
+
+  .projects {
+    padding-top: 300px;
+
   }
