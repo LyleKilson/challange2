@@ -11,7 +11,6 @@
   }
 
   body {
-    background-color: transparent;
     font-family: OCR A Std, 'Courier New', Courier, monospace;
   }
 
@@ -21,7 +20,6 @@
     position: sticky;
     flex-wrap: wrap;
     align-items: center;
-    z-index: 9999;
   }
 
   header img{
@@ -59,30 +57,34 @@
 /* HEADER / NAV STYLES END */
 
 /* JUMBOTRON STARTS */
-  .jumbotron {
+  .main {
     background-image: url(../images/P&K.JPG);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
     color: var(--secondary-color);
-    font-size: 40px;
-    opacity: .70;
+    opacity: .80;
     border-radius: 15px;
     margin: 10px;
   }
 
-  .jumbotron h1{
-    padding: 250px;
+  .main h1{
+    padding: 330px 150px 500px;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
   }
 
   .projects {
-    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 
+  .projects h3 {
+    color: var(--primary-color);
+    font-size: 30px;
+    border-bottom: var(--primary-color) 2px solid;
+    padding-bottom: 15px;
   }
