@@ -2,6 +2,8 @@
     --primary-color: #689689;
     --secondary-color: #fff;
     --tertiary-color: #006494;
+    --quaternary-color: #cf5c36;
+    --quinary-color: #efc88b;
   }
 
   * {
@@ -37,6 +39,7 @@
 
   header nav ul {
     font-size: 1.90vw;
+    font-weight: bold;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -76,9 +79,6 @@
   /* MAIN ENDS */
 
   /* about me STARTS */
-
-
-  
   .section-style h3 {
     text-align: center;
     font-size: 30px;
@@ -105,25 +105,35 @@
     background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
   }
 
-  .flex {
+  .run-buddy {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-  }
-
-  .run-buddy img{
+}
+  .run-buddy img {
     max-width: 100%;
     height: auto;
     padding: 3px;
-    border: var(--primary-color)4px solid;
     border-radius: 15px;
-    margin: 10px 0 20px;
+    margin: 0;
+    border: var(--primary-color)4px solid;
   }
 
   .run-buddy img:hover {
-    border: var(--tertiary-color)5px solid;
+    border: var(--quaternary-color)4px solid;
     opacity: .75;
   }
+
+  .flex-container {
+    border: solid 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .flex-container img {
+    max-width: 40%;
+    height: auto;
+  }
+
+  
 
   
