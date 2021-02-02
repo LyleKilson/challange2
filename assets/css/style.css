@@ -1,7 +1,7 @@
 :root {
     --primary-color: #689689;
     --secondary-color: #fff;
-    --tertiary-color: #000000;
+    --tertiary-color: #006494;
   }
 
   * {
@@ -65,11 +65,10 @@
     color: var(--secondary-color);
     opacity: .80;
     border-radius: 15px;
-    margin: 10px;
   }
 
   .main h1{
-    padding: 330px 150px 500px;
+    padding: 330px 110px 500px;
     font-weight: bolder;
     font-size:80px;
     text-align: center;
@@ -77,13 +76,10 @@
   /* MAIN ENDS */
 
   /* about me STARTS */
-  .about-me {
-    background: var(--secondary-color); 
-    background-size: cover;
-    border-radius: 15px;
-  }
 
-  .about-me h3 {
+
+  
+  .section-style h3 {
     text-align: center;
     font-size: 30px;
     background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
@@ -93,14 +89,41 @@
     padding: 5px;
   }
 
-  .about-me p {
+  .section-style p {
     text-align: start;
     font-weight: bold;
     line-height: 1.5;
     font-size: 20px;
     color: var(--primary-color);
     padding: 10px;
-    margin: 10px 10px;
+    margin: 10px 50px;
   }
   /* about me ENDS */
 
+/* projects START */
+  .opposite-border h3 {
+    background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .run-buddy img{
+    max-width: 100%;
+    height: auto;
+    padding: 3px;
+    border: var(--primary-color)4px solid;
+    border-radius: 15px;
+    margin: 10px 0 20px;
+  }
+
+  .run-buddy img:hover {
+    border: var(--tertiary-color)5px solid;
+    opacity: .75;
+  }
+
+  
