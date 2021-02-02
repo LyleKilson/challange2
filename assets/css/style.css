@@ -6,7 +6,7 @@
 
   * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 10px;
     padding: 0;
   }
 
@@ -46,17 +46,17 @@
   header nav ul li a {
     padding: 5px 8px;
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: var(--primary-color);
   }
 
   header nav ul li a:hover {
     background: var(--primary-color);
-    color: var(--secondary-color););
-    border-radius: 15px
+    color: var(--secondary-color);
+    border-radius: 15px;
   }
 /* HEADER / NAV STYLES END */
 
-/* JUMBOTRON STARTS */
+/* MAIN STARTS */
   .main {
     background-image: url(../images/P&K.JPG);
     background-repeat: no-repeat;
@@ -71,20 +71,36 @@
   .main h1{
     padding: 330px 150px 500px;
     font-weight: bolder;
-    font-size: 45px;
+    font-size:80px;
     text-align: center;
   }
+  /* MAIN ENDS */
 
-  .projects {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+  /* about me STARTS */
+  .about-me {
+    background: var(--secondary-color); 
+    background-size: cover;
+    border-radius: 15px;
   }
 
-  .projects h3 {
-    color: var(--primary-color);
+  .about-me h3 {
+    text-align: center;
     font-size: 30px;
-    border-bottom: var(--primary-color) 2px solid;
-    padding-bottom: 15px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    border-radius: 15px;
+    color: var(--secondary-color);
+    margin: 30px;
+    padding: 5px;
   }
+
+  .about-me p {
+    text-align: start;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 20px;
+    color: var(--primary-color);
+    padding: 10px;
+    margin: 10px 10px;
+  }
+  /* about me ENDS */
+
