@@ -117,21 +117,23 @@
     border: var(--primary-color)4px solid;
   }
 
-  .run-buddy img:hover {
+  .run-buddy img:hover, .flex-container img:hover {
     border: var(--quaternary-color)4px solid;
     opacity: .75;
   }
 
   .flex-container {
-    border: solid 5px;
     display: flex;
-    align-content: center;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
   }
 
   .flex-container img {
     max-width: 40%;
-    height: auto;
+    padding: 3px;
+    border-radius: 15px;
+    border: var(--primary-color)4px solid;
   }
 
   
