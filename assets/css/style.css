@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family:  monospace;
+  font-family: monospace;
 }
 
 /* HEADER / NAV STYLES START */
@@ -192,7 +192,6 @@ footer div {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 1040px) {
-
   .flex-container img {
     margin: 20px;
     width: 300px;
@@ -202,7 +201,6 @@ footer div {
 }
 
 @media screen and (max-width: 923px) {
-
   .footer-flex {
     justify-content: center;
     flex-direction: column;
@@ -217,7 +215,6 @@ footer div {
 }
 
 @media screen and (max-width: 530px) {
-
   .flex-container img {
     width: 300px;
     height: 300px;
