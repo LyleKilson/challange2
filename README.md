@@ -8,7 +8,7 @@ A portfolio of work that showcases my skills and talents to employers looking to
 * CSS
 
 ## Website
-https://LyleKilson.github.io/challange2/
+https://LyleKilson.github.io/challenge2/
 
 ## Contribution
 Made with 🧠 's by Kyle Wilson
