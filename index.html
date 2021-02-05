@@ -2,89 +2,131 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Kyle Wilson</title>
   </head>
-    <body>
-      <!-- HEADER / NAV STYLES START -->
+  <body>
+    <!-- HEADER / NAV STYLES START -->
     <header>
-        <nav>
-          <ul>
-            <li>
-                <a href="#about-me">about me</a>
-            </li>
-            <li>
-                <a href="#projects">projects</a>
-            </li>
-                <a href="/">
-                    <img src="./assets/images/pnghut_source-code-clip-art-html-coding.png">
-                </a>
-            <li>
-              <a href="#resume">resume</a>
-            </li>
-            <li>
-                <a href="#contact-me">contact me</a>
-            </li>
-            
-          </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me">about me</a>
+          </li>
+          <li>
+            <a href="#projects">projects</a>
+          </li>
+          <a href="/">
+            <img
+              src="./assets/images/pnghut_source-code-clip-art-html-coding.png"
+            />
+          </a>
+          <li>
+            <a href="#resume">resume</a>
+          </li>
+          <li>
+            <a href="#contact-me">contact me</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-      <!-- HEADER / NAV STYLES END-->
 
-      <!-- MAIN STARTS-->
-    <main class="main">
-            <div>
-                <h1>
-                Hi, I'm Kyle. 
-                <br />
-                I design websites.
-                </h1>
-            </div>
+    <!-- MAIN STARTS-->
+    <main class="img-container">
+      <img src="./assets/images/P&K.jpg" style="width: 100%;" />
+      <h1 class="center-text">
+          Hi, I'm Kyle.
+          </br>
+          I design websites.
+      </h1>
     </main>
-    <!-- MAIN ENDS-->
 
     <!-- about me STARTS-->
     <section class="section-style" id="about-me">
-        <h3>
-        about me
-        </h3>
-        <article>
-            <div>
-                <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores porro et magnam 
-                laborum inventore dignissimos praesentium, a illum commodi doloremque aspernatur molestias, 
-                explicabo corrupti ex repellendus nisi nam ad. Minima?
-                </p>
-                <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ea aliquam quia animi nisi 
-                expedita! Neque praesentium modi perspiciatis veniam tempora quas dignissimos inventore, 
-                doloribus omnis quod aperiam quis esse!
-                </p>
-                <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, tenetur quod. Velit 
-                quae minima unde quas excepturi nulla soluta asperiores ipsa reprehenderit quos? Eos, 
-                a laudantium harum quidem voluptas aspernatur.
-                </p>
-            </div>
-        </article>
+      <h3>about me</h3>
+      <article>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+            porro et magnam laborum inventore dignissimos praesentium, a illum
+            commodi doloremque aspernatur molestias, explicabo corrupti ex
+            repellendus nisi nam ad. Minima?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ea
+            aliquam quia animi nisi expedita! Neque praesentium modi
+            perspiciatis veniam tempora quas dignissimos inventore, doloribus
+            omnis quod aperiam quis esse!
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+            tenetur quod. Velit quae minima unde quas excepturi nulla soluta
+            asperiores ipsa reprehenderit quos? Eos, a laudantium harum quidem
+            voluptas aspernatur.
+          </p>
+        </div>
+      </article>
     </section>
-    <!-- about me ENDS-->
 
     <!-- projects STARTS-->
-    <section class="section-style opposite-border" id="projects">
-        <h3>
-        projects
-        </h3>
-        <div class="run-buddy">
-            <a herf="/">
-                <img src="./assets/images/run-buddy.png">
-            </a>
+    <section class="section-style " id="projects">
+      <h3>projects</h3>
+      <div class="run-buddy">
+        <h4>Run Buddy<span>&copy;</span></h4> 
+        <a href="https://lylekilson.github.io/run-buddy/" target="_blank">
+          <img src="./assets/images/run-buddy.png" />
+        </a>
+      </div>
+      <div class="flex-container">
+        <div>
+          <h4>University of Utah</h4>
+          <a href="https://www.utah.edu/" target="_blank">
+            <img src="./assets/images/UofU.png" />
+          </a>
         </div>
-        <div class="flex-container">
-            <img src="./assets/images/calculator.jpeg">
-            <img src="./assets/images/truck.jpg">
-            <img src="./assets/images/UofU.png">
+        <div>
+          <h4>Delta Vehicle Systems</h4>
+          <a
+            href="https://www.deltavs.com/equipment-model/80-series" target="_blank">
+            <img src="./assets/images/truck.jpg" />
+          </a>
         </div>
+        <div>
+          <h4>University of Utah</h4>
+          <a href="https://www.desmos.com/scientific" target="_blank">
+            <img src="./assets/images/calculator.jpeg" />
+          </a>
+        </div>
+        <div>
+        <h4>Github</h4>
+          <a href="https://www.github.com" target="_blank">
+            <img src="./assets/images/github.png" />
+          </a>
+        </div>
+      </div>
     </section>
-    </body>
+
+    <!-- resume STARTS-->
+    <section class="section-style resume-flex" id="resume">
+      <h3>resume</h3>
+       <img src="./assets/images/resume.png" />
+    </section>
+
+    <!-- contact me STARTS-->
+    <section class="section-style" id="contact me">
+      <h3>contact me</h3>
+      <div class="contact-me">
+
+      </div>
+    </section>
+
+    <!-- footer STARTS-->
+    <footer class="footer-flex">
+      <h2> Made by Kyle Wilson's big brain 🧠 </h2>
+      <div>
+        &copy; 2021 KW, Inc.
+      </div>
+    </footer>
+  </body>
 </html>
