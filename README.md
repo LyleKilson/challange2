@@ -11,4 +11,4 @@ A portfolio of work that showcases my skills and talents to employers looking to
 https://LyleKilson.github.io/challange2/
 
 ## Contribution
-Made with 🧠's by Kyle Wilson
+Made with 🧠 's by Kyle Wilson
