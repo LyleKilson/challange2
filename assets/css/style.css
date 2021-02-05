@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: OCR A Std, "Courier New", Courier, monospace;
+  font-family:  monospace;
 }
 
 /* HEADER / NAV STYLES START */
@@ -93,7 +93,7 @@ header nav ul li a:hover {
 }
 
 /* projects START */
-.section-style  {
+.section-style {
   margin: 10px;
 }
 
@@ -122,7 +122,7 @@ header nav ul li a:hover {
 .run-buddy img:hover,
 .flex-container img:hover {
   border: var(--quaternary-color) 4px solid;
-  opacity: 0.60;
+  opacity: 0.6;
 }
 
 .flex-container {
@@ -149,7 +149,7 @@ header nav ul li a:hover {
 }
 
 .resume-flex img {
-  border: var(--quaternary-color) 4px solid ;
+  border: var(--quaternary-color) 4px solid;
   border-radius: 15px;
 }
 
@@ -191,50 +191,35 @@ footer div {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-  @media screen and (max-width: 970px) {
-    .resume-flex img {
-      max-width: 900px;
-    }
+@media screen and (max-width: 1040px) {
 
+  .flex-container img {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 923px) {
+
+  .footer-flex {
+    justify-content: center;
+    flex-direction: column;
   }
 
-  
-  @media screen and (max-width: 849px) {
-
-    .flex-container {
-      flex-direction: column;
-    }
-
-    .footer-flex {
-      justify-content: center;
-      flex-direction: column;
-    }
-
-    header nav ul {
-      font-size: 8vw;
-      font-weight: bold;
-      display: flex;
-      list-style: none;
-      align-items: center;
-      flex-direction: column;
-    }
-
-    .main {
-      background-image: url(../images/P&K.JPG);
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      opacity: 0.8;
-      border-radius: 15px;
-    }
-
+  header nav ul {
+    font-size: 8vw;
+    list-style: none;
+    align-items: center;
+    flex-direction: column;
   }
+}
 
-      
-  @media screen and (max-width: 530px) {
+@media screen and (max-width: 530px) {
 
-    .flex-container img {
-      width: 300px;
-      height: 300px;
-    }
+  .flex-container img {
+    width: 300px;
+    height: 300px;
   }
+}
