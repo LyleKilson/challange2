@@ -78,7 +78,7 @@ header nav ul li a:hover {
   background: var(--primary-color);
   border-radius: 2em / 5em;
   color: var(--secondary-color);
-  margin: 30px;
+  margin: 20px;
   padding: 5px;
 }
 
@@ -97,7 +97,7 @@ header nav ul li a:hover {
   margin: 10px;
 }
 
-.section-style  h4 {
+.section-style h4 {
   text-align: center;
   padding: 5px;
   margin: 20px;
@@ -128,7 +128,7 @@ header nav ul li a:hover {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -142,7 +142,6 @@ header nav ul li a:hover {
 }
 
 /* resume STARTS*/
-
 .resume-flex {
   display: flex;
   flex-direction: column;
@@ -155,13 +154,22 @@ header nav ul li a:hover {
 }
 
 /* contact me STARTS*/
-
-.contact-me {
-  width: 500px;
-  height: 500px;
-  background-color: linear-gradient(var(--secondary-color, --quaternary-color, --secondary-color));
+.contact-me div {
+  color: #cf5c36;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.contact-me img {
+  padding: 10px;
+  max-width: 75px;
+  max-height: 75px;
+}
+
+/* footer STARTS*/
 .footer-flex {
   padding: 25px;
   margin: 20px;
@@ -184,15 +192,8 @@ footer div {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 970px) {
-
-    .main {
-      background-image: url(../images/P&K.JPG);
-      background-size: length;
-      background-position: fixed;
-      background-repeat: no-repeat;
-      max-width: 100%;
-      opacity: 0.8;
-      border-radius: 15px;
+    .resume-flex img {
+      max-width: 900px;
     }
 
   }
