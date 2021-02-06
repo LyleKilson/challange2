@@ -190,13 +190,20 @@ footer div {
   color: var(--secondary-color);
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 1040px) {
+/* MEDIA QUERY FOR DIFFERENT SIZED SCREENS*/
+@media screen and (max-width: 1680px) {
   .flex-container img {
     margin: 20px;
-    width: 300px;
-    height: 300px;
+    width: 215px;
+    height: 215px;
     justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .flex-container img {
+    width: 415px;
+    height: 415px;
   }
 }
 
@@ -218,5 +225,10 @@ footer div {
   .flex-container img {
     width: 300px;
     height: 300px;
+  }
+
+  .contact-me h5 {
+    font-size: 15px;
+    text-align: center;
   }
 }
